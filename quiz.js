@@ -10,7 +10,7 @@ function checkAnswer() {
 
   // compare user's answer with the correct answer
   
-  if(userAnswer === correctAnswer){
+  if (userAnswer === correctAnswer){
     feedback.textContent = "Correct! Well done."
   }else{
     feedback.textContent = "That's incorrect. Try again!"
